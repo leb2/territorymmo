@@ -109,57 +109,70 @@ CMakeFiles/server.dir/src/game/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game/game.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brendan/projects/territorymmo/server/src/game/game.cpp -o CMakeFiles/server.dir/src/game/game.cpp.s
 
-CMakeFiles/server.dir/src/game/tile.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/game/tile.cpp.o: ../src/game/tile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/src/game/tile.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/game/tile.cpp.o -c /Users/brendan/projects/territorymmo/server/src/game/tile.cpp
+CMakeFiles/server.dir/src/game/map/tile.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/game/map/tile.cpp.o: ../src/game/map/tile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/src/game/map/tile.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/game/map/tile.cpp.o -c /Users/brendan/projects/territorymmo/server/src/game/map/tile.cpp
 
-CMakeFiles/server.dir/src/game/tile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game/tile.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brendan/projects/territorymmo/server/src/game/tile.cpp > CMakeFiles/server.dir/src/game/tile.cpp.i
+CMakeFiles/server.dir/src/game/map/tile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game/map/tile.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brendan/projects/territorymmo/server/src/game/map/tile.cpp > CMakeFiles/server.dir/src/game/map/tile.cpp.i
 
-CMakeFiles/server.dir/src/game/tile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game/tile.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brendan/projects/territorymmo/server/src/game/tile.cpp -o CMakeFiles/server.dir/src/game/tile.cpp.s
+CMakeFiles/server.dir/src/game/map/tile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game/map/tile.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brendan/projects/territorymmo/server/src/game/map/tile.cpp -o CMakeFiles/server.dir/src/game/map/tile.cpp.s
 
-CMakeFiles/server.dir/src/game/entity.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/game/entity.cpp.o: ../src/game/entity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/src/game/entity.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/game/entity.cpp.o -c /Users/brendan/projects/territorymmo/server/src/game/entity.cpp
+CMakeFiles/server.dir/src/game/entity/entity.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/game/entity/entity.cpp.o: ../src/game/entity/entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/src/game/entity/entity.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/game/entity/entity.cpp.o -c /Users/brendan/projects/territorymmo/server/src/game/entity/entity.cpp
 
-CMakeFiles/server.dir/src/game/entity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game/entity.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brendan/projects/territorymmo/server/src/game/entity.cpp > CMakeFiles/server.dir/src/game/entity.cpp.i
+CMakeFiles/server.dir/src/game/entity/entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game/entity/entity.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brendan/projects/territorymmo/server/src/game/entity/entity.cpp > CMakeFiles/server.dir/src/game/entity/entity.cpp.i
 
-CMakeFiles/server.dir/src/game/entity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game/entity.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brendan/projects/territorymmo/server/src/game/entity.cpp -o CMakeFiles/server.dir/src/game/entity.cpp.s
+CMakeFiles/server.dir/src/game/entity/entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game/entity/entity.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brendan/projects/territorymmo/server/src/game/entity/entity.cpp -o CMakeFiles/server.dir/src/game/entity/entity.cpp.s
 
-CMakeFiles/server.dir/src/game/player.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/game/player.cpp.o: ../src/game/player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/src/game/player.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/game/player.cpp.o -c /Users/brendan/projects/territorymmo/server/src/game/player.cpp
+CMakeFiles/server.dir/src/game/player/player.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/game/player/player.cpp.o: ../src/game/player/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/src/game/player/player.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/game/player/player.cpp.o -c /Users/brendan/projects/territorymmo/server/src/game/player/player.cpp
 
-CMakeFiles/server.dir/src/game/player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game/player.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brendan/projects/territorymmo/server/src/game/player.cpp > CMakeFiles/server.dir/src/game/player.cpp.i
+CMakeFiles/server.dir/src/game/player/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game/player/player.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brendan/projects/territorymmo/server/src/game/player/player.cpp > CMakeFiles/server.dir/src/game/player/player.cpp.i
 
-CMakeFiles/server.dir/src/game/player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game/player.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brendan/projects/territorymmo/server/src/game/player.cpp -o CMakeFiles/server.dir/src/game/player.cpp.s
+CMakeFiles/server.dir/src/game/player/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game/player/player.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brendan/projects/territorymmo/server/src/game/player/player.cpp -o CMakeFiles/server.dir/src/game/player/player.cpp.s
 
-CMakeFiles/server.dir/src/game/tile_map.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/game/tile_map.cpp.o: ../src/game/tile_map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/src/game/tile_map.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/game/tile_map.cpp.o -c /Users/brendan/projects/territorymmo/server/src/game/tile_map.cpp
+CMakeFiles/server.dir/src/game/map/tile_map.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/game/map/tile_map.cpp.o: ../src/game/map/tile_map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/src/game/map/tile_map.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/game/map/tile_map.cpp.o -c /Users/brendan/projects/territorymmo/server/src/game/map/tile_map.cpp
 
-CMakeFiles/server.dir/src/game/tile_map.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game/tile_map.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brendan/projects/territorymmo/server/src/game/tile_map.cpp > CMakeFiles/server.dir/src/game/tile_map.cpp.i
+CMakeFiles/server.dir/src/game/map/tile_map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game/map/tile_map.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brendan/projects/territorymmo/server/src/game/map/tile_map.cpp > CMakeFiles/server.dir/src/game/map/tile_map.cpp.i
 
-CMakeFiles/server.dir/src/game/tile_map.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game/tile_map.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brendan/projects/territorymmo/server/src/game/tile_map.cpp -o CMakeFiles/server.dir/src/game/tile_map.cpp.s
+CMakeFiles/server.dir/src/game/map/tile_map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game/map/tile_map.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brendan/projects/territorymmo/server/src/game/map/tile_map.cpp -o CMakeFiles/server.dir/src/game/map/tile_map.cpp.s
+
+CMakeFiles/server.dir/src/game/entity/unit.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/game/entity/unit.cpp.o: ../src/game/entity/unit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/server.dir/src/game/entity/unit.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/game/entity/unit.cpp.o -c /Users/brendan/projects/territorymmo/server/src/game/entity/unit.cpp
+
+CMakeFiles/server.dir/src/game/entity/unit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game/entity/unit.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brendan/projects/territorymmo/server/src/game/entity/unit.cpp > CMakeFiles/server.dir/src/game/entity/unit.cpp.i
+
+CMakeFiles/server.dir/src/game/entity/unit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game/entity/unit.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brendan/projects/territorymmo/server/src/game/entity/unit.cpp -o CMakeFiles/server.dir/src/game/entity/unit.cpp.s
 
 # Object files for target server
 server_OBJECTS = \
@@ -167,10 +180,11 @@ server_OBJECTS = \
 "CMakeFiles/server.dir/src/networking/tcp_server.cpp.o" \
 "CMakeFiles/server.dir/src/networking/tcp_connection.cpp.o" \
 "CMakeFiles/server.dir/src/game/game.cpp.o" \
-"CMakeFiles/server.dir/src/game/tile.cpp.o" \
-"CMakeFiles/server.dir/src/game/entity.cpp.o" \
-"CMakeFiles/server.dir/src/game/player.cpp.o" \
-"CMakeFiles/server.dir/src/game/tile_map.cpp.o"
+"CMakeFiles/server.dir/src/game/map/tile.cpp.o" \
+"CMakeFiles/server.dir/src/game/entity/entity.cpp.o" \
+"CMakeFiles/server.dir/src/game/player/player.cpp.o" \
+"CMakeFiles/server.dir/src/game/map/tile_map.cpp.o" \
+"CMakeFiles/server.dir/src/game/entity/unit.cpp.o"
 
 # External object files for target server
 server_EXTERNAL_OBJECTS =
@@ -179,15 +193,16 @@ server: CMakeFiles/server.dir/src/main.cpp.o
 server: CMakeFiles/server.dir/src/networking/tcp_server.cpp.o
 server: CMakeFiles/server.dir/src/networking/tcp_connection.cpp.o
 server: CMakeFiles/server.dir/src/game/game.cpp.o
-server: CMakeFiles/server.dir/src/game/tile.cpp.o
-server: CMakeFiles/server.dir/src/game/entity.cpp.o
-server: CMakeFiles/server.dir/src/game/player.cpp.o
-server: CMakeFiles/server.dir/src/game/tile_map.cpp.o
+server: CMakeFiles/server.dir/src/game/map/tile.cpp.o
+server: CMakeFiles/server.dir/src/game/entity/entity.cpp.o
+server: CMakeFiles/server.dir/src/game/player/player.cpp.o
+server: CMakeFiles/server.dir/src/game/map/tile_map.cpp.o
+server: CMakeFiles/server.dir/src/game/entity/unit.cpp.o
 server: CMakeFiles/server.dir/build.make
 server: /usr/local/lib/libboost_system.dylib
 server: /usr/local/lib/libboost_filesystem.dylib
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

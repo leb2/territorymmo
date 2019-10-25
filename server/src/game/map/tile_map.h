@@ -1,7 +1,3 @@
-//
-// Created by Brendan Le on 2019-10-24.
-//
-
 #ifndef SERVER_TILE_MAP_H
 #define SERVER_TILE_MAP_H
 

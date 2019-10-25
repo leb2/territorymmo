@@ -10,7 +10,7 @@
 
 class entity {
 public:
-    explicit entity(std::string);
+    explicit entity(std::string id);
 private:
     std::string id_;
 };

@@ -2,9 +2,9 @@
 #define SERVER_NOTIFIER_H
 
 #include <string>
-#include "tile.h"
-#include "player.h"
-#include "entity.h"
+#include "../map/tile.h"
+#include "../player/player.h"
+#include "../entity/entity.h"
 
 class notifier {
 

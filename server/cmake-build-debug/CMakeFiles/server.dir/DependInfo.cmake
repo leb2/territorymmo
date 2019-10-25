@@ -4,11 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/brendan/projects/territorymmo/server/src/game/entity.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/entity.cpp.o"
+  "/Users/brendan/projects/territorymmo/server/src/game/entity/entity.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/entity/entity.cpp.o"
+  "/Users/brendan/projects/territorymmo/server/src/game/entity/unit.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/entity/unit.cpp.o"
   "/Users/brendan/projects/territorymmo/server/src/game/game.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/game.cpp.o"
-  "/Users/brendan/projects/territorymmo/server/src/game/player.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/player.cpp.o"
-  "/Users/brendan/projects/territorymmo/server/src/game/tile.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/tile.cpp.o"
-  "/Users/brendan/projects/territorymmo/server/src/game/tile_map.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/tile_map.cpp.o"
+  "/Users/brendan/projects/territorymmo/server/src/game/map/tile.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/map/tile.cpp.o"
+  "/Users/brendan/projects/territorymmo/server/src/game/map/tile_map.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/map/tile_map.cpp.o"
+  "/Users/brendan/projects/territorymmo/server/src/game/player/player.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/player/player.cpp.o"
   "/Users/brendan/projects/territorymmo/server/src/main.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/main.cpp.o"
   "/Users/brendan/projects/territorymmo/server/src/networking/tcp_connection.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/networking/tcp_connection.cpp.o"
   "/Users/brendan/projects/territorymmo/server/src/networking/tcp_server.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/networking/tcp_server.cpp.o"

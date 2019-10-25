@@ -1,9 +1,5 @@
-//
-// Created by Brendan Le on 2019-10-24.
-//
-
-#ifndef SERVER_MAP_INTERFACE_H
-#define SERVER_MAP_INTERFACE_H
+#ifndef SERVER_TILE_MAP_INTERFACE_H
+#define SERVER_TILE_MAP_INTERFACE_H
 
 
 #include <memory>
@@ -19,4 +15,4 @@ private:
     std::unordered_map<tile_position, std::shared_ptr<tile>> tile_map_;
 };
 
-#endif //SERVER_MAP_INTERFACE_H
+#endif //SERVER_TILE_MAP_INTERFACE_H

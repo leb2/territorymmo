@@ -11,7 +11,9 @@ struct tile_position {
 };
 
 class tile {
-
+public:
+    std::shared_ptr<unit> get_unit()
+    tile_position get_position();
 };
 
 

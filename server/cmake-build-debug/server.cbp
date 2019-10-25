@@ -134,10 +134,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/entity.cpp">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/entity/entity.cpp">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/entity.h">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/entity/entity.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/entity/unit.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/entity/unit.h">
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/game.cpp">
@@ -146,34 +152,34 @@
 		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/game.h">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/notifier.h">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/map/tile.cpp">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/notifier_factory.h">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/map/tile.h">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/player.cpp">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/map/tile_map.cpp">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/player.h">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/map/tile_map.h">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/player_set_interface.h">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/map/tile_map_interface.h">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/tile.cpp">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/notifier/notifier.h">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/tile.h">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/notifier/notifier_factory.h">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/tile_map.cpp">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/player/player.cpp">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/tile_map.h">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/player/player.h">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/tile_map_interface.h">
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/player/player_set_interface.h">
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/Users/brendan/projects/territorymmo/server/src/main.cpp">

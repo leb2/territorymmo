@@ -6,11 +6,11 @@
 #define SERVER_GAME_H
 
 #include <list>
-#include "notifier.h"
-#include "player.h"
-#include "tile_map.h"
-#include "tile_map_interface.h"
-#include "player_set_interface.h"
+#include "notifier/notifier.h"
+#include "player/player.h"
+#include "map/tile_map.h"
+#include "map/tile_map_interface.h"
+#include "player/player_set_interface.h"
 
 class game {
 

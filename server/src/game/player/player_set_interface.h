@@ -1,7 +1,3 @@
-//
-// Created by Brendan Le on 2019-10-24.
-//
-
 #ifndef SERVER_PLAYER_SET_INTERFACE_H
 #define SERVER_PLAYER_SET_INTERFACE_H
 

@@ -136,32 +136,59 @@ server/fast:
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
 .PHONY : server/fast
 
-src/game/entity.o: src/game/entity.cpp.o
+src/game/entity/entity.o: src/game/entity/entity.cpp.o
 
-.PHONY : src/game/entity.o
+.PHONY : src/game/entity/entity.o
 
 # target to build an object file
-src/game/entity.cpp.o:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/entity.cpp.o
-.PHONY : src/game/entity.cpp.o
+src/game/entity/entity.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/entity/entity.cpp.o
+.PHONY : src/game/entity/entity.cpp.o
 
-src/game/entity.i: src/game/entity.cpp.i
+src/game/entity/entity.i: src/game/entity/entity.cpp.i
 
-.PHONY : src/game/entity.i
+.PHONY : src/game/entity/entity.i
 
 # target to preprocess a source file
-src/game/entity.cpp.i:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/entity.cpp.i
-.PHONY : src/game/entity.cpp.i
+src/game/entity/entity.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/entity/entity.cpp.i
+.PHONY : src/game/entity/entity.cpp.i
 
-src/game/entity.s: src/game/entity.cpp.s
+src/game/entity/entity.s: src/game/entity/entity.cpp.s
 
-.PHONY : src/game/entity.s
+.PHONY : src/game/entity/entity.s
 
 # target to generate assembly for a file
-src/game/entity.cpp.s:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/entity.cpp.s
-.PHONY : src/game/entity.cpp.s
+src/game/entity/entity.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/entity/entity.cpp.s
+.PHONY : src/game/entity/entity.cpp.s
+
+src/game/entity/unit.o: src/game/entity/unit.cpp.o
+
+.PHONY : src/game/entity/unit.o
+
+# target to build an object file
+src/game/entity/unit.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/entity/unit.cpp.o
+.PHONY : src/game/entity/unit.cpp.o
+
+src/game/entity/unit.i: src/game/entity/unit.cpp.i
+
+.PHONY : src/game/entity/unit.i
+
+# target to preprocess a source file
+src/game/entity/unit.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/entity/unit.cpp.i
+.PHONY : src/game/entity/unit.cpp.i
+
+src/game/entity/unit.s: src/game/entity/unit.cpp.s
+
+.PHONY : src/game/entity/unit.s
+
+# target to generate assembly for a file
+src/game/entity/unit.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/entity/unit.cpp.s
+.PHONY : src/game/entity/unit.cpp.s
 
 src/game/game.o: src/game/game.cpp.o
 
@@ -190,86 +217,86 @@ src/game/game.cpp.s:
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/game.cpp.s
 .PHONY : src/game/game.cpp.s
 
-src/game/player.o: src/game/player.cpp.o
+src/game/map/tile.o: src/game/map/tile.cpp.o
 
-.PHONY : src/game/player.o
-
-# target to build an object file
-src/game/player.cpp.o:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/player.cpp.o
-.PHONY : src/game/player.cpp.o
-
-src/game/player.i: src/game/player.cpp.i
-
-.PHONY : src/game/player.i
-
-# target to preprocess a source file
-src/game/player.cpp.i:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/player.cpp.i
-.PHONY : src/game/player.cpp.i
-
-src/game/player.s: src/game/player.cpp.s
-
-.PHONY : src/game/player.s
-
-# target to generate assembly for a file
-src/game/player.cpp.s:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/player.cpp.s
-.PHONY : src/game/player.cpp.s
-
-src/game/tile.o: src/game/tile.cpp.o
-
-.PHONY : src/game/tile.o
+.PHONY : src/game/map/tile.o
 
 # target to build an object file
-src/game/tile.cpp.o:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/tile.cpp.o
-.PHONY : src/game/tile.cpp.o
+src/game/map/tile.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/map/tile.cpp.o
+.PHONY : src/game/map/tile.cpp.o
 
-src/game/tile.i: src/game/tile.cpp.i
+src/game/map/tile.i: src/game/map/tile.cpp.i
 
-.PHONY : src/game/tile.i
+.PHONY : src/game/map/tile.i
 
 # target to preprocess a source file
-src/game/tile.cpp.i:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/tile.cpp.i
-.PHONY : src/game/tile.cpp.i
+src/game/map/tile.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/map/tile.cpp.i
+.PHONY : src/game/map/tile.cpp.i
 
-src/game/tile.s: src/game/tile.cpp.s
+src/game/map/tile.s: src/game/map/tile.cpp.s
 
-.PHONY : src/game/tile.s
+.PHONY : src/game/map/tile.s
 
 # target to generate assembly for a file
-src/game/tile.cpp.s:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/tile.cpp.s
-.PHONY : src/game/tile.cpp.s
+src/game/map/tile.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/map/tile.cpp.s
+.PHONY : src/game/map/tile.cpp.s
 
-src/game/tile_map.o: src/game/tile_map.cpp.o
+src/game/map/tile_map.o: src/game/map/tile_map.cpp.o
 
-.PHONY : src/game/tile_map.o
+.PHONY : src/game/map/tile_map.o
 
 # target to build an object file
-src/game/tile_map.cpp.o:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/tile_map.cpp.o
-.PHONY : src/game/tile_map.cpp.o
+src/game/map/tile_map.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/map/tile_map.cpp.o
+.PHONY : src/game/map/tile_map.cpp.o
 
-src/game/tile_map.i: src/game/tile_map.cpp.i
+src/game/map/tile_map.i: src/game/map/tile_map.cpp.i
 
-.PHONY : src/game/tile_map.i
+.PHONY : src/game/map/tile_map.i
 
 # target to preprocess a source file
-src/game/tile_map.cpp.i:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/tile_map.cpp.i
-.PHONY : src/game/tile_map.cpp.i
+src/game/map/tile_map.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/map/tile_map.cpp.i
+.PHONY : src/game/map/tile_map.cpp.i
 
-src/game/tile_map.s: src/game/tile_map.cpp.s
+src/game/map/tile_map.s: src/game/map/tile_map.cpp.s
 
-.PHONY : src/game/tile_map.s
+.PHONY : src/game/map/tile_map.s
 
 # target to generate assembly for a file
-src/game/tile_map.cpp.s:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/tile_map.cpp.s
-.PHONY : src/game/tile_map.cpp.s
+src/game/map/tile_map.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/map/tile_map.cpp.s
+.PHONY : src/game/map/tile_map.cpp.s
+
+src/game/player/player.o: src/game/player/player.cpp.o
+
+.PHONY : src/game/player/player.o
+
+# target to build an object file
+src/game/player/player.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/player/player.cpp.o
+.PHONY : src/game/player/player.cpp.o
+
+src/game/player/player.i: src/game/player/player.cpp.i
+
+.PHONY : src/game/player/player.i
+
+# target to preprocess a source file
+src/game/player/player.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/player/player.cpp.i
+.PHONY : src/game/player/player.cpp.i
+
+src/game/player/player.s: src/game/player/player.cpp.s
+
+.PHONY : src/game/player/player.s
+
+# target to generate assembly for a file
+src/game/player/player.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/player/player.cpp.s
+.PHONY : src/game/player/player.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -389,21 +416,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... server"
-	@echo "... src/game/entity.o"
-	@echo "... src/game/entity.i"
-	@echo "... src/game/entity.s"
+	@echo "... src/game/entity/entity.o"
+	@echo "... src/game/entity/entity.i"
+	@echo "... src/game/entity/entity.s"
+	@echo "... src/game/entity/unit.o"
+	@echo "... src/game/entity/unit.i"
+	@echo "... src/game/entity/unit.s"
 	@echo "... src/game/game.o"
 	@echo "... src/game/game.i"
 	@echo "... src/game/game.s"
-	@echo "... src/game/player.o"
-	@echo "... src/game/player.i"
-	@echo "... src/game/player.s"
-	@echo "... src/game/tile.o"
-	@echo "... src/game/tile.i"
-	@echo "... src/game/tile.s"
-	@echo "... src/game/tile_map.o"
-	@echo "... src/game/tile_map.i"
-	@echo "... src/game/tile_map.s"
+	@echo "... src/game/map/tile.o"
+	@echo "... src/game/map/tile.i"
+	@echo "... src/game/map/tile.s"
+	@echo "... src/game/map/tile_map.o"
+	@echo "... src/game/map/tile_map.i"
+	@echo "... src/game/map/tile_map.s"
+	@echo "... src/game/player/player.o"
+	@echo "... src/game/player/player.i"
+	@echo "... src/game/player/player.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -6,8 +6,13 @@
 #define SERVER_PLAYER_H
 
 
-class player {
+#include <string>
 
+class player {
+public:
+    player(std::string id);
+private:
+    std::string id_;
 };
 
 
