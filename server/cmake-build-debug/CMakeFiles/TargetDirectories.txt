@@ -1,0 +1,4 @@
+/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/test.dir
+/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir

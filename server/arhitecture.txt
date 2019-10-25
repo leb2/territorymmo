@@ -1,0 +1,85 @@
+NETWORKING PACKAGE
+    class tcp_connection:
+        func handle_connection(connection):
+            this.client = new client(this)
+
+        func handle_request(connection):
+            response = this.client.handle_request()
+            connection.write(response)
+
+        func send_message():
+
+    class interface_client:
+        func handle_request(message):
+
+
+CLIENT INTERACTION PACKAGE
+    class game_client extends client:
+        func send_message(string message_json):
+            this.tcp_connection.send(message_json)
+
+        func handle_request(request):
+            first_message = connection.read()
+            client_id = get_id(first_message)
+            command = parser.deserialize(request)
+            response = executor.execute(command)
+            response = parser.serialize(response)
+
+    class executor:
+        func execute(command):
+        func listen_to_unit(unit_id):
+        func listen_to_region(coordinates):
+
+    class parser:
+        func serialize():
+        func deserialize():
+
+    class listener_storage:
+        func list<client> get_listeners_by_tile():
+        func list<client> get_listeners_for_unit():
+
+    class game_notifier_factory extends notifier_factory
+        func create():
+            return new notifier(listener_storage)
+
+    class game_notifier extends notifier
+        func game_notifier(listener_storage)
+        func get_listeners():
+            return listener_storage.get_listeners_by_tile(unit.position)
+
+
+GAME PACKAGE
+    class game:
+        func game(notifier_factory):
+        func int create_unit():
+        func get_unit(unit_id):
+
+    class unit:
+        func unit(game, notifier_factory):
+            notifier = notifier()
+            notifier.set_default_string("type", "unit")
+            notifier.set_default_int("id", this.id)
+        func move_to(position):
+            this.notifier.set_int("position.x", position.x)
+            this.notifier.set_int("position.y", position.y)
+            this.notifier.notify()
+        func attack(position):
+
+    class notifier_factory():
+        func notifier create():
+
+    class notifier:
+        func add_notified_region(region_x, region_y)
+        func add_notified_player(player_id)
+        func add_notified_unit(unit_id)
+        func clear_notified_units()
+        func clear_notified_players()
+        func clear_notified_regions()
+
+        func set_default_int(name, value)
+        func set_default_float(name, value)
+
+        func set_int(name, value)
+        func set_float(name, value)
+        func notify()
+
