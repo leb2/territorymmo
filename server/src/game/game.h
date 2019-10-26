@@ -11,15 +11,18 @@
 #include "map/tile_map.h"
 #include "map/tile_map_interface.h"
 #include "player/player_set_interface.h"
+#include "notifier/notifier_factory.h"
 
 class game {
 
 public:
-    game();
+    game(std::shared_ptr<notifier_factory> factory);
+    std::shared_ptr<tile_map_interface> get_map();
 
 private:
     std::shared_ptr<player_set_interface> players_;
     std::shared_ptr<tile_map_interface> map_;
+    std::shared_ptr<notifier_factory> notifier_factory_;
 };
 
 

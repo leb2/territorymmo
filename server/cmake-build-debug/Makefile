@@ -298,6 +298,33 @@ src/game/player/player.cpp.s:
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/player/player.cpp.s
 .PHONY : src/game/player/player.cpp.s
 
+src/game/player/player_set.o: src/game/player/player_set.cpp.o
+
+.PHONY : src/game/player/player_set.o
+
+# target to build an object file
+src/game/player/player_set.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/player/player_set.cpp.o
+.PHONY : src/game/player/player_set.cpp.o
+
+src/game/player/player_set.i: src/game/player/player_set.cpp.i
+
+.PHONY : src/game/player/player_set.i
+
+# target to preprocess a source file
+src/game/player/player_set.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/player/player_set.cpp.i
+.PHONY : src/game/player/player_set.cpp.i
+
+src/game/player/player_set.s: src/game/player/player_set.cpp.s
+
+.PHONY : src/game/player/player_set.s
+
+# target to generate assembly for a file
+src/game/player/player_set.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/game/player/player_set.cpp.s
+.PHONY : src/game/player/player_set.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -434,6 +461,9 @@ help:
 	@echo "... src/game/player/player.o"
 	@echo "... src/game/player/player.i"
 	@echo "... src/game/player/player.s"
+	@echo "... src/game/player/player_set.o"
+	@echo "... src/game/player/player_set.i"
+	@echo "... src/game/player/player_set.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

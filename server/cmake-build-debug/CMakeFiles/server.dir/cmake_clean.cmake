@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/server.dir/src/game/player/player.cpp.o"
   "CMakeFiles/server.dir/src/game/map/tile_map.cpp.o"
   "CMakeFiles/server.dir/src/game/entity/unit.cpp.o"
+  "CMakeFiles/server.dir/src/game/player/player_set.cpp.o"
   "server.pdb"
   "server"
 )

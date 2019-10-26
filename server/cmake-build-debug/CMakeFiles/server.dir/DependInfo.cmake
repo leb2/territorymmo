@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/brendan/projects/territorymmo/server/src/game/map/tile.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/map/tile.cpp.o"
   "/Users/brendan/projects/territorymmo/server/src/game/map/tile_map.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/map/tile_map.cpp.o"
   "/Users/brendan/projects/territorymmo/server/src/game/player/player.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/player/player.cpp.o"
+  "/Users/brendan/projects/territorymmo/server/src/game/player/player_set.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/game/player/player_set.cpp.o"
   "/Users/brendan/projects/territorymmo/server/src/main.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/main.cpp.o"
   "/Users/brendan/projects/territorymmo/server/src/networking/tcp_connection.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/networking/tcp_connection.cpp.o"
   "/Users/brendan/projects/territorymmo/server/src/networking/tcp_server.cpp" "/Users/brendan/projects/territorymmo/server/cmake-build-debug/CMakeFiles/server.dir/src/networking/tcp_server.cpp.o"

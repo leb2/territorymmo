@@ -179,6 +179,12 @@
 		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/player/player.h">
 			<Option target="server"/>
 		</Unit>
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/player/player_set.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/player/player_set.h">
+			<Option target="server"/>
+		</Unit>
 		<Unit filename="/Users/brendan/projects/territorymmo/server/src/game/player/player_set_interface.h">
 			<Option target="server"/>
 		</Unit>

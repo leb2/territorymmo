@@ -10,7 +10,8 @@ class tile_map : public tile_map_interface {
 
 public:
     tile_map();
-    std::shared_ptr<tile> get_tile(int x, int y);
+    std::shared_ptr<tile> get_tile(tile_position) override;
+    bool is_adjacent(tile_position position1, tile_position position2) override;
 
 private:
     std::unordered_map<tile_position, std::shared_ptr<tile>> tile_map_;
