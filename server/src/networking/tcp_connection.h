@@ -41,7 +41,7 @@ private:
     std::shared_ptr<client> client_;
     tcp::socket socket_;
     std::string message_;
-    boost::array<char, 1000> read_buffer_;
+    boost::asio::streambuf read_buffer_;
 };
 
 

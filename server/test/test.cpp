@@ -21,7 +21,10 @@ int main(int argc, char* argv[]) {
             std::string message = "Test message";
             std::cout << "Starting sending message" << std::endl;
 
-            size_t len = socket.send(boost::asio::buffer("hello"));
+            size_t len = socket.send(boost::asio::buffer("AAAAA\r"));
+            std::cout << "Finished sending message, length: " << len <<  std::endl;
+
+            len = socket.send(boost::asio::buffer("hello2b\r"));
             std::cout << "Finished sending message, length: " << len <<  std::endl;
 
             len = socket.read_some(boost::asio::buffer(buf), error);
