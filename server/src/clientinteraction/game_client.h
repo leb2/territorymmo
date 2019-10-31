@@ -6,7 +6,7 @@
 
 class game_client : public client {
 public:
-    game_client(std::shared_ptr<tcp_connection> connection, std::string id);
+    game_client(std::shared_ptr<tcp_connection> connection);
     void handle_request(std::string message) override;
 
 private:

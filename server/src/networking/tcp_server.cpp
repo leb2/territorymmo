@@ -17,7 +17,9 @@ void tcp_server::start_accept() {
 }
 
 void tcp_server::handle_accept(tcp_connection::pointer new_connection, const boost::system::error_code& error) {
+    std::cout << "Got a connection " << std::endl;
     if (!error) {
+        new_connection->set_client(client_factory_->create_client(new_connection));
         new_connection->start();
     }
     start_accept();

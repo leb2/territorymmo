@@ -16,17 +16,26 @@ int main(int argc, char* argv[]) {
         boost::asio::connect(socket, endpoints);
 
         for (;;) {
-            boost::array<char, 128> buf;
+            boost::array<char, 128> buf{};
             boost::system::error_code error;
+            std::string message = "Test message";
+            std::cout << "Starting sending message" << std::endl;
 
-            size_t len = socket.read_some(boost::asio::buffer(buf), error);
+            size_t len = socket.send(boost::asio::buffer("hello"));
+            std::cout << "Finished sending message, length: " << len <<  std::endl;
 
-            if (error == boost::asio::error::eof)
-                break; // Connection closed cleanly by peer.
-            else if (error)
-                throw boost::system::system_error(error); // Some other error.
+            len = socket.read_some(boost::asio::buffer(buf), error);
+            std::cout << "Finished reading message" << std::endl;
 
+            std::cout << "Response is: " << std::endl;
             std::cout.write(buf.data(), len);
+
+            if (error == boost::asio::error::eof) {
+                std::cout << "Connection closed cleanly by peer" << std::endl;
+                break;
+            } else if (error) {
+                throw boost::system::system_error(error); // Some other error.
+            }
         }
     }
     catch (std::exception& e) {

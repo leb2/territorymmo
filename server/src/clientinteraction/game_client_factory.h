@@ -6,7 +6,7 @@
 
 class game_client_factory : public client_factory {
 public:
-    std::shared_ptr<client> create_client(std::shared_ptr<tcp_connection> connection, std::string id) override;
+    std::shared_ptr<client> create_client(std::shared_ptr<tcp_connection> connection) override;
 };
 
 

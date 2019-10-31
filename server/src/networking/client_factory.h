@@ -9,7 +9,8 @@
 #include "client.h"
 
 class client_factory {
-    virtual std::shared_ptr<client> create_client(std::shared_ptr<tcp_connection> connection, std::string id) = 0;
+public:
+    virtual std::shared_ptr<client> create_client(std::shared_ptr<tcp_connection> connection) = 0;
 };
 
 
