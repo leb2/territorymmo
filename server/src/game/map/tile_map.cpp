@@ -1,4 +1,5 @@
 #include "tile_map.h"
+#include "tile.h"
 
 tile_map::tile_map() : tile_map_({}) {
 }

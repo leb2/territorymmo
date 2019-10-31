@@ -1,12 +1,8 @@
 #ifndef SERVER_TILE_H
 #define SERVER_TILE_H
 
-#include "../entity/unit.h"
-
-struct tile_position {
-    int x;
-    int y;
-};
+#include "tile_map.h"
+class unit;
 
 class tile {
 public:

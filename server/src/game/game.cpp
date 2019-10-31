@@ -1,9 +1,4 @@
 #include <utility>
-
-//
-// Created by Brendan Le on 2019-10-24.
-//
-
 #include "game.h"
 #include "player/player_set.h"
 #include "notifier/notifier_factory.h"

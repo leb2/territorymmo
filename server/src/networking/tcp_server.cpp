@@ -1,7 +1,10 @@
 #include "tcp_server.h"
 
-tcp_server::tcp_server(boost::asio::io_context& io_context)
+// How to copy object into shared pointer?
+// Does setting shared pointer to memory address work (if the memory address is garbage collected)
+tcp_server::tcp_server(boost::asio::io_context& io_context, std::shared_ptr<client_factory> client_factory)
         : io_context_(io_context),
+          client_factory_(client_factory),
           acceptor_(io_context, tcp::endpoint(tcp::v4(), 1234)) {
     start_accept();
 }

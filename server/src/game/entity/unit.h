@@ -1,13 +1,15 @@
 #ifndef SERVER_UNIT_H
 #define SERVER_UNIT_H
 
-#include "../map/tile.h"
 #include <memory>
-#include "../game.h"
+#include "entity.h"
+#include "../map/tile_data.h"
 
-class unit {
+class game;
+
+class unit : public entity, std::enable_shared_from_this<unit> {
 public:
-    unit::unit(std::shared_ptr<game> game, tile_position position);
+    unit(std::shared_ptr<game> game, tile_position position);
     void move_to(tile_position dest);
 
 private:

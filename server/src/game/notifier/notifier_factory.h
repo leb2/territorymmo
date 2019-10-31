@@ -5,11 +5,10 @@
 #ifndef SERVER_NOTIFIER_FACTORY_H
 #define SERVER_NOTIFIER_FACTORY_H
 
-
 #include "notifier.h"
 
 class notifier_factory {
-    static notifier create();
+    virtual std::shared_ptr<notifier> create() = 0;
 };
 
 

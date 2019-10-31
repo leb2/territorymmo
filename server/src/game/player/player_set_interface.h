@@ -2,6 +2,7 @@
 #define SERVER_PLAYER_SET_INTERFACE_H
 
 
+class player;
 class player_set_interface {
 public:
     virtual std::shared_ptr<player> get_player_by_id(std::string player_id) = 0;

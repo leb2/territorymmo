@@ -6,12 +6,10 @@
 #define SERVER_GAME_H
 
 #include <list>
-#include "notifier/notifier.h"
-#include "player/player.h"
-#include "map/tile_map.h"
-#include "map/tile_map_interface.h"
-#include "player/player_set_interface.h"
-#include "notifier/notifier_factory.h"
+
+class notifier_factory;
+class player_set_interface;
+class tile_map_interface;
 
 class game {
 
@@ -24,6 +22,5 @@ private:
     std::shared_ptr<tile_map_interface> map_;
     std::shared_ptr<notifier_factory> notifier_factory_;
 };
-
 
 #endif //SERVER_GAME_H

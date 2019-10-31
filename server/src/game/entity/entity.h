@@ -1,16 +1,18 @@
-//
-// Created by Brendan Le on 2019-10-24.
-//
-
 #ifndef SERVER_ENTITY_H
 #define SERVER_ENTITY_H
 
-
 #include <string>
 
+class notifier;
+class game;
 class entity {
 public:
-    explicit entity(std::string id);
+    entity(std::shared_ptr<game> game);
+
+protected:
+    std::shared_ptr<notifier> notifier_;
+    std::shared_ptr<game> game_;
+
 private:
     std::string id_;
 };

@@ -5,11 +5,11 @@
 #ifndef SERVER_PLAYER_SET_H
 #define SERVER_PLAYER_SET_H
 
-
+#include <string>
 #include "player_set_interface.h"
 
 class player_set : public player_set_interface {
-
+    std::shared_ptr<player> get_player_by_id(std::string player_id) override;
 };
 
 

@@ -21,9 +21,14 @@ public:
     static pointer create(boost::asio::io_context& io_context);
     tcp::socket& socket();
     void start();
+    void write(std::string message);
 
 private:
     void handle_write(const boost::system::error_code& /*error*/, size_t /*bytes_transferred*/);
+    void handle_read(const boost::system::error_code& /*error*/, size_t /*bytes_transferred*/);
+    void start_read();
+
+
     tcp_connection(boost::asio::io_context& io_context);
     tcp::socket socket_;
     std::string message_;

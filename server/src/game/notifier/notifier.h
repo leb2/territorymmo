@@ -3,11 +3,10 @@
 
 #include <string>
 #include "../map/tile.h"
-#include "../player/player.h"
-#include "../entity/entity.h"
+class player;
+class entity;
 
 class notifier {
-
 public:
     virtual void add_notified_region(tile_position) = 0;
     virtual void add_notified_player(std::shared_ptr<player> player) = 0;

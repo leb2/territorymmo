@@ -7,12 +7,15 @@
 #include <boost/asio.hpp>
 
 #include "networking/tcp_server.h"
+#include "clientinteraction/game_client_factory.h"
+
 using boost::asio::ip::tcp;
 
 int main() {
     try {
         boost::asio::io_context io_context;
-        tcp_server server(io_context);
+        std::shared_ptr<client_factory> factory = std::make_shared<game_client_factory>();
+        tcp_server server(io_context, factory);
         io_context.run();
     }
     catch (std::exception& e) {

@@ -1,6 +1,7 @@
 #include <utility>
 #include <memory>
 #include "tile.h"
+#include "../entity/unit.h"
 
 std::shared_ptr<unit> tile::get_unit() {
     return unit_;
