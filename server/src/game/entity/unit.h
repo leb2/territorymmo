@@ -7,15 +7,16 @@
 
 class game;
 
-class unit : public entity, std::enable_shared_from_this<unit> {
+class unit : public std::enable_shared_from_this<unit>, public entity {
 public:
-    unit(std::shared_ptr<game> game, tile_position position);
+    unit(std::shared_ptr<game> game);
     void move_to(tile_position dest);
     std::string to_string();
 
 private:
     tile_position position_;
     std::shared_ptr<game> game_;
+    bool on_map_;
 };
 
 

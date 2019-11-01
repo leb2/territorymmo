@@ -20,7 +20,6 @@ std::shared_ptr<tile> tile_map::get_tile(tile_position position) {
     auto result = tile_map_.find(position);
     if (result == tile_map_.end()) {
         std::shared_ptr<tile> new_tile = std::make_shared<tile>(position);
-        std::cout << "Inserting " << std::endl;
         tile_map_.insert({{position, new_tile}});
         return new_tile;
     }

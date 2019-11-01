@@ -24,10 +24,13 @@ void tile::remove_unit() {
 }
 
 void tile::set_unit(std::shared_ptr<unit> unit) {
-    unit_ = std::move(unit);
+    unit_ = unit;
 }
 
 std::string tile::to_string() {
+    if (unit_ == nullptr) {
+        return (boost::format("<Tile at position %1%>") % position_.to_string()).str();
+    }
     return (boost::format("<Tile at position %1% with unit %2%>") % position_.to_string() % unit_->to_string()).str();
 }
 

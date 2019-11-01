@@ -11,11 +11,12 @@ class notifier_factory;
 class player_set_interface;
 class tile_map;
 
-class game {
+class game : public std::enable_shared_from_this<game> {
 
 public:
     game(std::shared_ptr<notifier_factory> factory);
     std::shared_ptr<tile_map> get_map();
+    void initialize_map();
 
 private:
     std::shared_ptr<player_set_interface> players_;

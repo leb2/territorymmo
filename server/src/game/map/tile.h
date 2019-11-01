@@ -6,7 +6,7 @@ class unit;
 
 class tile {
 public:
-    tile(tile_position position);
+    explicit tile(tile_position position);
     std::shared_ptr<unit> get_unit();
     tile_position get_position();
 

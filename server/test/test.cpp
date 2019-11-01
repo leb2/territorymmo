@@ -16,18 +16,22 @@
 using boost::asio::ip::tcp;
 
 
-void test_map() {
-    std::shared_ptr<tile_map> _tile_map = std::make_shared<tile_map>();
+void test_map(std::shared_ptr<game> _game) {
+    std::shared_ptr<tile_map> _tile_map = _game->get_map();
     _tile_map->get_tile({0, 0});
     _tile_map->get_tile({1, 0});
+    std::cout << "Testing map" << std::endl;
     std::cout << _tile_map->to_string() << std::endl;
 }
 
 int main() {
     std::shared_ptr<notifier_factory> _notifier_factory = std::make_shared<game_notifier_factory>();
+
     std::shared_ptr<game> _game = std::make_shared<game>(_notifier_factory);
+    _game->initialize_map();
+
     std::shared_ptr<client> _client = std::make_shared<game_client>(_game);
 
-    test_map();
+    test_map(_game);
     return 0;
 }

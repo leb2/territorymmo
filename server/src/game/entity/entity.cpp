@@ -1,5 +1,8 @@
 #include <utility>
+
+#include <utility>
 #include "entity.h"
+#include <iostream>
 
 std::string rand_id(const int len) {
     std::string letters  =
@@ -15,4 +18,6 @@ std::string rand_id(const int len) {
 }
 
 entity::entity(std::shared_ptr<game> game) :
-    game_(std::move(game)), id_(rand_id(10)) {}
+    game_(game), id_(rand_id(10)) {
+    std::cout << "Game is here? " << std::endl;
+}
