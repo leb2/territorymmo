@@ -3,6 +3,8 @@
 #include <boost/asio.hpp>
 
 using boost::asio::ip::tcp;
+#include <nlohmann/json.hpp>
+using json = nlohmann::json;
 
 int main(int argc, char* argv[]) {
     try {
@@ -21,7 +23,18 @@ int main(int argc, char* argv[]) {
             std::string message = "Test message";
             std::cout << "Starting sending message" << std::endl;
 
-            size_t len = socket.send(boost::asio::buffer("AAAAA\r"));
+            json command = R"(
+                {
+                    "commands": [
+                        {
+                            "command": "move",
+                            "target_id": "0"
+                        }
+                    ]
+                }
+            )"_json;
+
+            size_t len = socket.send(boost::asio::buffer(command.dump() + "\r"));
             std::cout << "Finished sending message, length: " << len <<  std::endl;
 
             len = socket.send(boost::asio::buffer("hello2b\r"));

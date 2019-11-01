@@ -9,7 +9,7 @@ tcp_connection::tcp_connection(boost::asio::io_context& io_context)
 }
 
 tcp_connection::~tcp_connection() {
-    std::cout << "I am being deconstruted!" << std::endl;
+    std::cout << "I am being deconstructed!" << std::endl;
 }
 
 void tcp_connection::set_client(std::shared_ptr<client> client) {

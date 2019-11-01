@@ -10,6 +10,7 @@ tcp_server::tcp_server(boost::asio::io_context& io_context, std::shared_ptr<clie
 }
 
 void tcp_server::start_accept() {
+    std::cout << "Server started listening on port 1234" << std::endl;
     tcp_connection::pointer new_connection = tcp_connection::create(io_context_);
     acceptor_.async_accept(new_connection->socket(),
                            boost::bind(&tcp_server::handle_accept, this, new_connection,
