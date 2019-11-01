@@ -4,6 +4,7 @@
 #include "../game/notifier/notifier.h"
 
 class game_notifier : public notifier {
+public:
     void add_notified_region(tile_position) override;
     void add_notified_player(std::shared_ptr<player> player) override;
     void add_notified_entity(std::shared_ptr<entity> entity) override;
@@ -19,7 +20,6 @@ class game_notifier : public notifier {
     void set_float(std::string key, int value) override;
     void set_string(std::string key, int value) override;
     void notify() override;
-
 };
 
 

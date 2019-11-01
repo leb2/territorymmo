@@ -2,15 +2,18 @@
 #define SERVER_TILE_MAP_H
 
 #include <map>
-#include "tile_map_interface.h"
+#include "tile_map.h"
 #include "tile_data.h"
+#include <string>
 
-class tile_map : public tile_map_interface {
+class tile;
+class tile_map {
 
 public:
     tile_map();
-    std::shared_ptr<tile> get_tile(tile_position) override;
-    bool is_adjacent(tile_position position1, tile_position position2) override;
+    std::shared_ptr<tile> get_tile(tile_position);
+    bool is_adjacent(tile_position position1, tile_position position2);
+    std::string to_string();
 
 private:
     std::map<tile_position, std::shared_ptr<tile>> tile_map_;

@@ -8,6 +8,7 @@
 #include "notifier.h"
 
 class notifier_factory {
+public:
     virtual std::shared_ptr<notifier> create() = 0;
 };
 

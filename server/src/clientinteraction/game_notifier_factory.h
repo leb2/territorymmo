@@ -4,6 +4,8 @@
 #include "../game/notifier/notifier_factory.h"
 
 class game_notifier_factory : public notifier_factory {
+public:
+    game_notifier_factory();
     std::shared_ptr<notifier> create() override;
 };
 

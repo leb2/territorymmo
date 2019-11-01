@@ -9,6 +9,7 @@
 #include "player_set_interface.h"
 
 class player_set : public player_set_interface {
+public:
     std::shared_ptr<player> get_player_by_id(std::string player_id) override;
 };
 

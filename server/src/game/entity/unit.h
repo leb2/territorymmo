@@ -11,6 +11,7 @@ class unit : public entity, std::enable_shared_from_this<unit> {
 public:
     unit(std::shared_ptr<game> game, tile_position position);
     void move_to(tile_position dest);
+    std::string to_string();
 
 private:
     tile_position position_;

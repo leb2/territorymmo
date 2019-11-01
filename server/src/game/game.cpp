@@ -12,6 +12,6 @@ game::game(std::shared_ptr<notifier_factory> factory) :
     std::cout << "Game created" << std::endl;
 }
 
-std::shared_ptr<tile_map_interface> game::get_map() {
+std::shared_ptr<tile_map> game::get_map() {
     return map_;
 }

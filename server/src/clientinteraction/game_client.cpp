@@ -4,8 +4,12 @@
 #include <nlohmann/json.hpp>
 using json = nlohmann::json;
 
-game_client::game_client(std::shared_ptr<tcp_connection> connection)
-    : connection_(connection) {
+game_client::game_client(std::shared_ptr<game> game) : game_(game) {
+
+}
+
+game_client::game_client(std::shared_ptr<tcp_connection> connection, std::shared_ptr<game> game)
+    : connection_(connection), game_(game) {
     std::cout << "New client created" << std::endl;
 }
 
